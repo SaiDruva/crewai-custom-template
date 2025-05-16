@@ -1,4 +1,6 @@
 **LessonCraftAI**
+
+
 Transform Curriculum Documents into Comprehensive Lesson Plans
 LessonCraftAI is an AI-powered system that converts curriculum documents into complete, classroom-ready lesson plans. Using advanced NLP and vector embeddings, this tool analyzes curriculum PDFs, extracts key topics and learning objectives, then generates structured lesson plans with timed activities, assessments, and supplementary resources.
 
