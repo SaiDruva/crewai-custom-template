@@ -1,0 +1,3 @@
+name: LessonCraftAI
+description: AI system that creates lesson plans from curriculum documents
+entry_point: crew.py

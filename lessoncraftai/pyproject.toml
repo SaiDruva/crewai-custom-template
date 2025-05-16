@@ -1,0 +1,36 @@
+[project]
+name = "lessoncraftai"
+version = "0.1.0"
+description = "AI system that creates lesson plans from curriculum documents"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "crewai>=1.0.0",
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.13",
+    "langchain-openai>=0.0.2",
+    "openai>=1.1.0",
+    "chromadb>=0.4.22",
+    "pypdf>=3.17.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["lessoncraftai"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
