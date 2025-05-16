@@ -38,10 +38,7 @@ pypdf: For PDF document parsing
 python-dotenv: For environment variable management
 Configuration Instructions
 Setting Up Your Environment
-Clone the repository:
-bash
-git clone https://github.com/yourusername/lessoncraftai.git
-cd lessoncraftai
+
 Set up environment:
 bash
 # Install UV (recommended)
