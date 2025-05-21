@@ -143,7 +143,7 @@ LessonCraftAI offers multiple customization points for tailoring to your specifi
 
 ```bash
 # Run using Python directly
-python main.py
+python crew.py
 
 # Run using CrewAI CLI
 crewai run
